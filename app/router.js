@@ -5,5 +5,11 @@
  */
 module.exports = app => {
   const { router, controller } = app;
-  router.get('/', controller.home.index);
+  const category = controller.category;
+  const knowledge = controller.knowledge;
+  // 类别
+  router.get('/api/category', category.getAllCategory);
+  router.post('/api/category', category.addOne);
+  // 内容
+  router.get('/api/knowledge', knowledge.getAllKnowledge);
 };
