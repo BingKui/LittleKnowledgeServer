@@ -37,8 +37,12 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/BingKui/LittleKnowledgeServer.git"
   },
   "author": "康兵奎",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BingKui/LittleKnowledgeServer/issues"
+  },
+  "homepage": "https://github.com/BingKui/LittleKnowledgeServer#readme"
 }
